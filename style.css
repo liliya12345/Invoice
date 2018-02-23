@@ -1,0 +1,220 @@
+head{
+    width: 500px;
+
+}
+body{
+    width: 900px;
+    margin: 10px auto;
+
+}
+
+#information-left{
+margin: 15px auto;
+border: 1px solid;
+padding: 20px;
+display: inline-block;
+list-style: none;
+}
+#datum{
+    float: right;
+    
+    
+}
+#faktura > p {
+    font-size: 14px;
+    text-align: center;
+    color:rgb(56, 56, 107);
+
+}
+#fakturanummer{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    float: left;
+}
+#logo1{
+    float: right;
+    margin: 10px auto;
+   
+    
+
+    
+}
+#row1{
+    
+    border-bottom: 1px solid;
+    width: 900px;
+    float: left;
+}
+.row2{
+    display: inline-block;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    float:right; 
+    font-size: 30px; 
+     
+    
+}
+.row3{
+    display: inline-block;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    float:right; 
+    padding-bottom: 23px;  
+    font-size: 10px;
+    padding-left: 5px;
+}
+#row4{
+    font-size: 18px;
+    padding-top: 100px;
+    }
+.row6{
+    display: inline-block;
+    padding-bottom: 23px;
+    float:left; 
+    font-size: 10px; 
+    width: 300px; 
+    padding-top: 10px;
+        
+    }
+    .row7{
+        display: inline-block;
+        border-top: 1px solid;
+        border-left: 1px solid;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 23px;  
+        font-size: 10px;
+        width: 288px; 
+        
+    }
+    .row8{
+        display: inline-block;
+        border-top: 1px solid;
+        border-left: 1px solid;
+        float:right; 
+        padding-left: 10px;
+        padding-top: 7px;
+        padding-bottom: 23px;  
+        font-size: 10px;
+        width: 290px; 
+    }
+    .row9{
+        
+       
+        width: 300px;
+        float: left;
+        font-size: 12px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .row10{
+        
+        float: left;
+        width: 300px;
+        font-size: 12px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+       
+    }
+    .row11{
+        
+        
+        width: 300px;
+        float: right;
+        font-size: 12px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .row12{
+              
+        float:left; 
+        font-size: 10px;
+        width: 33%;
+        padding-left: 5px; 
+        
+    }
+    .row13{
+        
+        border-left: 1px solid;
+        float:left;  
+        font-size: 10px;
+        width: 33%; 
+        padding-left: 5px;
+        
+    }
+    .row14{
+        
+        border-left: 1px solid;
+        float:right;   
+        font-size: 10px;
+        width: 32.1%; 
+        padding-left: 5px;
+        
+    }
+
+
+
+#information-right{
+    float: right;
+    border: 1px solid;
+    padding: 20px;
+    list-style: none;
+    }
+
+#middle{
+    margin-top: 50px;
+}
+#photo{
+    width: 50%
+}
+#table{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    width: 900px;
+    
+}
+#table tr{
+
+    color: black;
+    font: italic;
+    text-align: center;
+}
+#table td{
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px; 
+    text-align: center;      
+}
+ #left-text > p{
+    color:rgb(56, 56, 107);
+    text-align: center;
+    font-size: 24px;
+}
+#row6{
+    word-spacing: 120px;
+   
+}
+
+#section{
+    border: 1px;
+}
+#information-left1{
+    margin: 15px auto;
+    padding: 20px;
+    display: inline-block;
+    list-style: none;
+    }
+p {color:rgb(20, 18, 22);}
+
+footer{
+    
+    
+    
+    padding-top: 150px;
+    text-align: center;
+    
+    
+}

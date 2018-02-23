@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lg ="sv">
+ <meta charset="utf-8">
+<html>
+<head>
+     <link rel="stylesheet" href="style.css" type="text/css"/>
+<title>Faktura</title>
+
+</head>
+<body>
+    <nav class id ="nav">
+            <div id="datum">
+                          
+                </div>
+                
+    </nav>
+    
+
+    <header id="top">
+        <div id="photo">
+        <img src ="Viasat.png"  style="width:50%;" >
+         </div>
+         
+        <div class= "info">
+                <ul class id ="information-left">
+                        <li>Vid frågor kontakta: 0201202220</li>
+                        <li>Maila kundservice på fraga@viasatbyliliya.se</li>
+                        <li>Våra öppettider är vardagar 7.00-16.00</li>
+                </ul>
+                <ul class id ="information-right">
+                        <li>Viasatbyliliya (Modern Times Group) </li>
+                        <li>Organisationsnummer:  556304-0001</li>
+                        <li>Postadress: Viasatyliliya AB, avd. VB, 25474 Ödåkra</li>
+                </ul>
+         </div>
+        
+    </header>
+    <main id= "middle">
+        <section class id="left">
+            <article class id="left-text">
+            <p><b>FAKTURADETALJER</b></p>
+            </article>
+        </section>
+    
+        <section class id="rigt">
+            <article class id="right-text">
+                <div id= "table">
+                <table >
+                    <div id="tr">
+                    <tr>
+                        <th>Tjänster och produkter</th>
+                        <th>Period</th>
+                        <th>Belopp</th>
+                    </tr>
+                   </div>
+                    <tr>
+                    <div id="td">
+                        <td>Abonnemangsavgift</td>
+                        <td>2018-03-01 2018-06-01</td>
+                        <td>400.00 kr</td>
+                    </div>
+                    </tr>
+                    <tr>
+                        <td>Bredband 100/10 Mbps</td>
+                        <td>2018-03-01 2018-06-01</td>
+                        <td>400.00 kr</td>
+                    </tr>
+                    <tr>
+                        <td>Korthyra Huvudbox</td>
+                        <td>2018-03-01 2018-06-01</td>
+                        <td>200.00 kr</td>
+                    </tr>
+                    <tr>
+                            <td>Varav moms 25% ingår:</td>
+                            <td></td>
+                            <td>250.00 kr</td>
+                        </tr>
+                    <tr>
+                            
+                            <td></td>
+                            <td><b>Att betala</b></td>
+                            <td><b>1000.00 kr</b></td>     
+                            
+                     </tr>                           
+                </table>               
+            </div>
+            </article>
+        </section>
+        <section class id= "faktura">
+          
+        <p> <b>Har du frågor om fakturan?</b>
+             <img src ="headset.png"  style="width:2%;" > 
+            gå in på www.viasat.com/kundservice eller hör av sig på telefon 
+            0201202220 </p>
+                      
+        </section>
+        <section>
+            <p>Fakturadatum:2018-02-24</p>
+         <div id="row1">
+         <img  class id="logo1" src ="bankgiro.png"  style="width:10%;" >
+             <p>INTBETALNING/GIRERING AVI</p>
+         </div>
+         <div class="row2">
+             <span><b>OCR</b></span>
+        </div>   
+        <div class="row3">
+             <span>Inbet avgift (ifylls av banken)</span>
+         </div>
+         <div id="row4">
+             <span><b>Viasat  tillhanda senast 2018-03-01</b></span>
+         </div>
+         <div id="row5">
+                <ul class id ="information-left1">
+                        <li>Wellbefy AB</li>
+                        <li>RÖNNOWSGATAN 8 C</li>
+                        <li>252 25 Helsingborg</li>
+                        <p>Fakturanummer: </p> <b> <div id="fakturanummer"></div></b>
+                </ul>
+            </div>
+            <div class="row6">
+                    <span><b>Från bankgironr</b></span>
+               </div>   
+               <div class="row7">
+                    <span>Till bankgironr</span>
+                    <p><h2>4545-1234</h2></p>
+                </div>
+                <div class="row8">
+                        <span>Betalningsmottagare</span>
+                        <p><h2>ViasatbyLiliya</h2></p>
+                    </div>
+
+                    <div class="row9">
+                    <span>  <b>VAR GOD GÖR INGA ÄNDRINGAR</b></span>
+                </div>
+                <div class="row10">
+                        <span><b>MEDDELANDEN KAN INTE LÄMNAS PÅ AVIN</b></span>
+                    </div>
+                    <div class="row11">
+                            <span><b>DEN AVLÄSES MASKINELLT</b></span>
+                        </div>
+                <div class="row12">
+                    <span>Referensnr</span>
+                    <p><h2><b><div id ="referensnummer"></div><b></h2></p>
+               </div>   
+               <div class="row13">
+                    <span>Kronor</span>
+                    <p><h2>1000</h2></p>
+                </div>
+                <div class="row14">
+                        <span>Öre</span>
+                        <p><h2>00</h2></p>
+                </div>
+                    
+
+
+        </section>
+
+    </main>
+    <footer  id="bottom">
+        
+            Copyright © ViasatbyLiliya AB 2018 made  by Liliya
+        
+    </footer>
+
+    
+     <script type="text/javascript">   
+                var arr = new Array(10);
+                for(var i=0; i<arr.length; i++)
+                {
+                    arr[i] = Math.floor(Math.random() * 13);
+                }
+                                 
+
+                   var theElement = document.getElementById("fakturanummer"); 
+                    theElement.innerHTML = arr.join ("");
+                    
+                var arr1 = new Array(10);
+                for(var i=0; i<arr.length; i++)
+                {
+                    arr1[i] = Math.floor(Math.random() * 16);
+                }
+                var theElement = document.getElementById("referensnummer"); 
+                    theElement.innerHTML = arr1.join ("");
+                    
+              </script>
+
+</body>
+</html>
